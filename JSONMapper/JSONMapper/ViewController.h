@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  JSONMapper
+//  HSKModel-master
 //
-//  Created by admin on 2019/2/15.
-//  Copyright © 2019 zhouqiao. All rights reserved.
+//  Created by scott on 2016/12/20.
+//  Copyright © 2016年 ZQ. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
