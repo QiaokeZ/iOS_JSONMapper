@@ -26,7 +26,7 @@
 		8421513A22166DDE0078AFEB /* JSONMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8421513D22166DDE0078AFEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8421513E22166DDE0078AFEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8421514022166DDE0078AFEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8421514022166DDE0078AFEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Models/ViewController.h; sourceTree = "<group>"; };
 		8421514122166DDE0078AFEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8421514422166DDE0078AFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8421514622166DE00078AFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +81,8 @@
 			children = (
 				8421515522166F650078AFEB /* JSONMapper */,
 				8421515C22166F660078AFEB /* Models */,
+				8421514022166DDE0078AFEB /* ViewController.h */,
+				8421514122166DDE0078AFEB /* ViewController.m */,
 				8421515A22166F660078AFEB /* ViewController1.h */,
 				8421515B22166F660078AFEB /* ViewController1.m */,
 				8421515422166F650078AFEB /* ViewController2.h */,
@@ -89,8 +91,6 @@
 				8421515322166F650078AFEB /* ViewController3.m */,
 				8421513D22166DDE0078AFEB /* AppDelegate.h */,
 				8421513E22166DDE0078AFEB /* AppDelegate.m */,
-				8421514022166DDE0078AFEB /* ViewController.h */,
-				8421514122166DDE0078AFEB /* ViewController.m */,
 				8421514322166DDE0078AFEB /* Main.storyboard */,
 				8421514622166DE00078AFEB /* Assets.xcassets */,
 				8421514822166DE00078AFEB /* LaunchScreen.storyboard */,
@@ -103,8 +103,8 @@
 		8421515522166F650078AFEB /* JSONMapper */ = {
 			isa = PBXGroup;
 			children = (
-				8421515622166F650078AFEB /* NSObject+JSONMapper.m */,
 				8421515722166F650078AFEB /* NSObject+JSONMapper.h */,
+				8421515622166F650078AFEB /* NSObject+JSONMapper.m */,
 			);
 			path = JSONMapper;
 			sourceTree = "<group>";

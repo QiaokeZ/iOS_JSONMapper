@@ -1,10 +1,4 @@
-//
-//  ViewController.m
-//  HSKModel-master
-//
-//  Created by scott on 2016/12/20.
-//  Copyright © 2016年 ZQ. All rights reserved.
-//
+ 
 
 #import "ViewController.h"
 #import "ViewController1.h"
@@ -23,13 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"HSKModel";
+    self.title = @"JSONMapper";
     
     _tableViewDataSource = @[@"字典转模型",@"数组字典转模型",@"模型转字典"];
     [self prepareView];
-    
-    
-    
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
