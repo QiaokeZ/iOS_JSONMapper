@@ -13,6 +13,13 @@
 		8421514722166DE00078AFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8421514622166DE00078AFEB /* Assets.xcassets */; };
 		8421514A22166DE00078AFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8421514822166DE00078AFEB /* LaunchScreen.storyboard */; };
 		8421514D22166DE00078AFEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421514C22166DE00078AFEB /* main.m */; };
+		8421516322166F660078AFEB /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421515322166F650078AFEB /* ViewController3.m */; };
+		8421516422166F660078AFEB /* NSObject+JSONMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421515622166F650078AFEB /* NSObject+JSONMapper.m */; };
+		8421516522166F660078AFEB /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421515822166F650078AFEB /* ViewController2.m */; };
+		8421516622166F660078AFEB /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421515B22166F660078AFEB /* ViewController1.m */; };
+		8421516722166F660078AFEB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421515E22166F660078AFEB /* User.m */; };
+		8421516822166F660078AFEB /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421515F22166F660078AFEB /* BaseModel.m */; };
+		8421516922166F660078AFEB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421516022166F660078AFEB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		8421514922166DE00078AFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8421514B22166DE00078AFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8421514C22166DE00078AFEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8421515322166F650078AFEB /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		8421515422166F650078AFEB /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		8421515622166F650078AFEB /* NSObject+JSONMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONMapper.m"; sourceTree = "<group>"; };
+		8421515722166F650078AFEB /* NSObject+JSONMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONMapper.h"; sourceTree = "<group>"; };
+		8421515822166F650078AFEB /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		8421515922166F650078AFEB /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		8421515A22166F660078AFEB /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		8421515B22166F660078AFEB /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		8421515D22166F660078AFEB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8421515E22166F660078AFEB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8421515F22166F660078AFEB /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		8421516022166F660078AFEB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8421516122166F660078AFEB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8421516222166F660078AFEB /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,14 @@
 		8421513C22166DDE0078AFEB /* JSONMapper */ = {
 			isa = PBXGroup;
 			children = (
+				8421515522166F650078AFEB /* JSONMapper */,
+				8421515C22166F660078AFEB /* Models */,
+				8421515A22166F660078AFEB /* ViewController1.h */,
+				8421515B22166F660078AFEB /* ViewController1.m */,
+				8421515422166F650078AFEB /* ViewController2.h */,
+				8421515822166F650078AFEB /* ViewController2.m */,
+				8421515922166F650078AFEB /* ViewController3.h */,
+				8421515322166F650078AFEB /* ViewController3.m */,
 				8421513D22166DDE0078AFEB /* AppDelegate.h */,
 				8421513E22166DDE0078AFEB /* AppDelegate.m */,
 				8421514022166DDE0078AFEB /* ViewController.h */,
@@ -69,6 +98,28 @@
 				8421514C22166DE00078AFEB /* main.m */,
 			);
 			path = JSONMapper;
+			sourceTree = "<group>";
+		};
+		8421515522166F650078AFEB /* JSONMapper */ = {
+			isa = PBXGroup;
+			children = (
+				8421515622166F650078AFEB /* NSObject+JSONMapper.m */,
+				8421515722166F650078AFEB /* NSObject+JSONMapper.h */,
+			);
+			path = JSONMapper;
+			sourceTree = "<group>";
+		};
+		8421515C22166F660078AFEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8421515D22166F660078AFEB /* Person.h */,
+				8421515E22166F660078AFEB /* User.m */,
+				8421515F22166F660078AFEB /* BaseModel.m */,
+				8421516022166F660078AFEB /* Person.m */,
+				8421516122166F660078AFEB /* User.h */,
+				8421516222166F660078AFEB /* BaseModel.h */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8421516822166F660078AFEB /* BaseModel.m in Sources */,
+				8421516722166F660078AFEB /* User.m in Sources */,
+				8421516922166F660078AFEB /* Person.m in Sources */,
+				8421516422166F660078AFEB /* NSObject+JSONMapper.m in Sources */,
+				8421516622166F660078AFEB /* ViewController1.m in Sources */,
 				8421514222166DDE0078AFEB /* ViewController.m in Sources */,
 				8421514D22166DE00078AFEB /* main.m in Sources */,
+				8421516322166F660078AFEB /* ViewController3.m in Sources */,
 				8421513F22166DDE0078AFEB /* AppDelegate.m in Sources */,
+				8421516522166F660078AFEB /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
