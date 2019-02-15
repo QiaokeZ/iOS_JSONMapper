@@ -29,7 +29,7 @@ typedef NS_ENUM (NSUInteger, _DataType) {
 @interface _Property : NSObject
 - (instancetype)initWithProperty:(objc_property_t)property;
 @property (nonatomic, assign) objc_property_t property;
-@property (nonatomic, copy) NSString *propertyName;
+@property (nonatomic, strong) NSString *propertyName;
 @property (nonatomic, assign) _DataType dataType;
 @property (nonatomic, assign) Class propertyClass;
 @property (nonatomic, assign) SEL setter;

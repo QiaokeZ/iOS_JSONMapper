@@ -1,10 +1,4 @@
-//
-//  AppDelegate.m
-//  JSONMapper
-//
-//  Created by admin on 2019/2/15.
-//  Copyright © 2019 zhouqiao. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 
