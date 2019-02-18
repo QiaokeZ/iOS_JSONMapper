@@ -1,3 +1,13 @@
+//
+//  NSObject+JSONMapper.h
+//  NSObject+JSONMapper <https://github.com/QiaokeZ/iOS_JSONMapper>
+//
+//  Created by admin on 2019/1/18.
+//  Copyright © 2019 zhouqiao. All rights reserved.
+//
+//  This source code is licensed under the MIT-style license found in the
+//  LICENSE file in the root directory of this source tree.
+//
 
 #import <Foundation/Foundation.h>
 

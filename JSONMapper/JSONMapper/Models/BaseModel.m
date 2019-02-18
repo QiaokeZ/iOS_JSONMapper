@@ -1,11 +1,9 @@
 
 
 #import "BaseModel.h"
-#import "NSObject+JSONMapper.h"
 #import "Person.h"
 
 @implementation BaseModel
-
 
 + (NSDictionary *)yx_loadModelCustomPropertyMapper{
     return @{

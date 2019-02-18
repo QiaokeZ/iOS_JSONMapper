@@ -18,7 +18,6 @@
     [super viewDidLoad];
     
     self.title = @"JSONMapper";
-    
     _tableViewDataSource = @[@"字典转模型",@"数组字典转模型",@"模型转字典"];
     [self prepareView];
 }

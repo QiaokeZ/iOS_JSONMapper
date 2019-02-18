@@ -112,12 +112,12 @@
 		8421515C22166F660078AFEB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8421515D22166F660078AFEB /* Person.h */,
-				8421515E22166F660078AFEB /* User.m */,
-				8421515F22166F660078AFEB /* BaseModel.m */,
-				8421516022166F660078AFEB /* Person.m */,
 				8421516122166F660078AFEB /* User.h */,
+				8421515E22166F660078AFEB /* User.m */,
 				8421516222166F660078AFEB /* BaseModel.h */,
+				8421515F22166F660078AFEB /* BaseModel.m */,
+				8421515D22166F660078AFEB /* Person.h */,
+				8421516022166F660078AFEB /* Person.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";

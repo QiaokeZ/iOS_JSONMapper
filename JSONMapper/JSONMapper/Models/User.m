@@ -29,6 +29,4 @@
 + (void)yx_objectTransformModelDidFinish{
     NSLog(@"转换完毕");
 }
-
-
 @end

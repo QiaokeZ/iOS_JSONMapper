@@ -1,9 +1,8 @@
 
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-
 @property (nonatomic, copy) NSString * name;
 @property (nonatomic, copy) NSString * age;
 @property (nonatomic, copy) NSString * sex;
