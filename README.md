@@ -3,7 +3,7 @@
 
 ### 字典转模型
 
-``` swift
+``` objectivec
 //BaseModel.h
 #import <Foundation/Foundation.h>
 #import "Person.h"
@@ -112,7 +112,7 @@
 
 ```
 ### 字典转模型
-``` swift
+``` objectivec
 
 NSDictionary *json = @{
                        @"desciption":@"1111",
@@ -149,7 +149,7 @@ NSLog(@"model1.person.age = %@",model1.person.age);
 NSLog(@"model1.person.sex = %@",model1.person.sex);
 ```
 ### 数组字典转模型
-``` swift
+``` objectivec
 NSArray *json = @[
                        @{
                            @"desciption":@"1111",
@@ -211,7 +211,7 @@ NSLog(@"%@",models);
 NSLog(@"%@",models1);
 ```
 ### 模型转字典
-``` swift
+``` objectivec
 NSDictionary *json = @{
                        @"desciption":@"1111",
                        @"id":@"8888888",
